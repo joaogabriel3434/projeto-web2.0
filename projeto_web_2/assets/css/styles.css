@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*Índigo primário 
+#4F46E5 Botões primários, links ativos, ícone de destaque
+Índigo escuro
+#312E81 Navbar fixa, painel de marca do login, item ativo da sidebar
+Fundo geral
+#F3F4F6 Background do <body> nas páginas internas
+Superfície (cartões)
+#FFFFFF Cards, sidebar, painéis
+Texto principal
+#111827 Títulos e textos gerais
+Texto secundário
+#6B72#80 Descrições, metadados, textos auxiliares
+Borda sutil
+#E5E7EB Bordas de cards, divisores
+Sucesso (Resolvido)
+#16A34A Badge de status "Resolvido"
+Sucesso (fundo)
+#DCFCE7 Fundo do badge "Resolvido"
+Alerta (Em andamento)
+D97706 Badge de status "Em andamento"
+Alerta (fundo)
+#FEF3C7 Fundo do badge "Em andamento"
+Perigo (Aberto/Urgente) DC2226 Badge de status "Aberto" e prioridade "Alta"
+#FEE2E2 Fundo do badge "Aberto"/"Alta */
+
+:root{
+    --indigo-primario: #4F46E5;
+    --indigo-escuro: #312E81;
+    --fundo-geral: #F3F4F6;
+    --superficie: #FFFFFF;
+    --texto-principal: #111827;
+    --texto-secundario: #6B7280;
+    --borda-sutil: #E5E7EB;
+    --resolvido: #DCFCE7;
+    --alerta: #D97706;
+    --aberto-urgente:#DC2626 ;
+    --perigo-fundo: #FEE2E2;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--texto-principal);;
+    background-color: var(--fundo-geral);
+}
